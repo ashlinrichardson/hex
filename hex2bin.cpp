@@ -3,7 +3,8 @@
 
 int main(int argc, char ** argv){
   if(argc != 3){
-    printf("Error: hex2bin: usage:\n\thex2bin [input file name] [output file name] .\n"); exit(1);
+    printf("hex2bin [input filename] [output filename]\n"); 
+    exit(1);
   }
   char * in_file_name = argv[1];
   char * file_name    = argv[2];
