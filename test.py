@@ -15,7 +15,7 @@ if not os.path.exists('test_data.txt'):
     f.write('here is some data.\n')
     f.close()
 
-run("gcc -w bin2hex.c -o ~/bin/bin2hex")
+run("g++ -w bin2hex.cpp -o ~/bin/bin2hex")
 run("g++ -w hex2bin.cpp -o ~/bin/hex2bin")
 run("chmod 755 ~/bin/bin2hex")
 run("chmod 755 ~/bin/hex2bin")
