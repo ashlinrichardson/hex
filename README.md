@@ -4,4 +4,4 @@ convert between hex and binary files
 * hex2bin converts a hexadecimal file to binary
 
 # instructions
-* please see '''test.py''' for compilation instructions 
+Please see '''test.py''' for sample commands for compilation and running
